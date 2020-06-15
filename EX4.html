@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EX4</title>
+    <style type="text/css">
+        body{
+            font-family: Arial,Verdana,sans-serif;
+
+
+        }
+        table{
+            column-width: 0px;
+            padding: 10px 20px;
+
+
+
+        }
+        th{
+            padding: 5px
+            margin-bottom: 20px
+            border-spacing:none;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background:dodgerblue;
+            color: whitesmoke;
+        }
+        td{
+            background-color:lightblue;
+            font-family: "Times New Roman";
+            color:black;
+        }
+        .title{
+            font-weight:bold;
+            padding: 10px 20px;
+            color: black;
+
+        }
+        fieldset{
+            border-bottom: 1px solid black;
+            padding: 5px;
+            margin-bottom: 20px;
+            width: 300px;
+        }
+        #register{
+            background:green;
+            color:whitesmoke;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Poetry Workshops</h1>
+<h4>We will conducting a number of poetry workshops and symposiums throughout the year .</h4>
+<h4>Please note that the following events are free to members
+<li>A Poetic Perspective</li>
+<li>Walt Whitman at War</li>
+<li>Found Poems and Outsider Poetry</li>
+</h4>
+<table >
+    <tr>
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+    </tr>
+    <tr>
+        <td class="title">A Poetic Perspective</td>
+        <td>Sat,4 Fer 2012 11am - 2pm</td>
+        <td>Sat,3 Mar 2012 11am - 2pm</td>
+        <td>Sat,17 Mar 2012 11am - 2pm</td>
+    </tr>
+    <tr>
+        <td class="title">Walt Whitman at War</td>
+        <td>Sat,4 Fer 2012 11am - 2pm</td>
+        <td>Sat,3 Mar 2012 11am - 2pm</td>
+        <td>Sat,17 Mar 2012 11am - 2pm</td>
+    </tr>
+    <tr>
+        <td class="title">Found Poeams & Outsider Poetry</td>
+        <td>Sat,9 Jun 2012 11am - 2pm</td>
+        <td>Sat,7 Jul 2012 11am - 2pm</td>
+        <td>Sat,21 Jul 2012 11am - 2pm</td>
+    </tr>
+    <tr>
+        <td class="title">Natural Death: An Exploration</td>
+        <td>Sat,4 Aug 2012 11am - 4pm</td>
+        <td>Sat,8 Sep 2012 11am - 4pm</td>
+        <td>Sat,15 Sep 2012 11am - 4pm</td>
+    </tr>
+
+</table>
+<br>
+<fieldset>
+    <legend><i>Register your interest</i></legend>
+    <label>Your name:</label>
+    <input type="text" name="name" id="name" required="required"><br>
+    <label>Your email:</label>
+    <input type="email" name="email" id="email" required="required"><br>
+    <br>
+    <label>Your closet center:</label>
+    <select name="country">
+        <option value="N.Y">N.Y</option>
+        <option value="L.A">L.A</option>
+        <option value="Cali">Cali</option>
+        <option value="San">San</option>
+    </select>
+    <p>Are you a member ?</p>
+    <input type="radio" name="choice" value="Yes" checked="checked"> Yes
+    <input type="radio" name="choice" value="No" checked="checked"> No
+</fieldset>
+<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<input type="submit" id="register" value="Register" name="register" >
+</body>
+</html>
