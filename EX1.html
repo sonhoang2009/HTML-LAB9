@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form1</title>
+</head>
+<body>
+<form>
+<fieldset>
+    <legend>Your details</legend>
+    <label>Name</label>
+    <input type="text" name="name" maxlength="30" required="required" placeholder="name"><br>
+    <label>Email</label>
+    <input type="email" name="Email" maxlength="255" required="required" placeholder="email"><br>
+
+</fieldset>
+<br>
+<fieldset>
+    <legend>Your reviews:</legend>
+    <p>How did you hear about us?</p>
+    <select name="asdas" >
+        <option value="google">google</option>
+        <option value="facebook">facebook</option>
+        <option value="TV">TV</option>
+        <option value="another">another</option>
+    </select>
+    <p>Would u visit again?</p>
+    <input type="radio" name="yes" value="yes" > Yes
+    <input type="radio" name="yes" value="no" > No
+    <input type="radio" name="yes" value="maybe" > maybe
+    <br>
+
+    <p>Comments: </p>
+    <textarea id="comments" cols="30" rows="15"></textarea>
+    <br>
+    <input type="checkbox"><label>Sign me for email updates </label><br>
+    <input type="submit" name="submitreview">
+
+
+</fieldset>
+    </form>
+</body>
+</html>
